@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Kenzie</title>
+</head>
+<header>
+<h1>Formulario para Cadastro Kenzie</h1>
+</header>
+<section>
+ <form>
+    <fieldset id="cara">
+
+<label for="nome">Nome</label><br>
+<input type="text"
+ id="nome" 
+ name="nome" 
+ placeholder="Digite seu nome aqui..." 
+ required="true" 
+ maxlength="20"><br></br>
+
+ <label for="email">Email</label><br>
+ <input type="text"
+  id="email" 
+  name="email" 
+  placeholder="Digite seu email aqui..." 
+  required="true" 
+  maxlength="40"><br></br>
+  
+  <label for="descricao">Descrição</label><br>
+  <textarea id="descricao" placeholder="Fale mais sobre você aqui..." cols="40" rows="10"></textarea>
+<br></br> 
+<label for="modulo">Módulo</label><br>
+<select name="Módulo" id="modulo" required="true">
+<option value="">
+    Escolher módulo
+</option>
+<option value="fullstack">
+    Escolher módulo Full-Stack
+</option>
+<option value="frontend">
+    Escolher módulo Front-end
+</option>
+<option value="backend">
+    Escolher módulo Back-end
+</option>
+</select>
+<br></br>
+<label for="">Senha</label><br>
+<input type="password" 
+id="senha" 
+name="senha" 
+placeholder="Digite sua senha aqui..." 
+required="true" 
+maxlength="15"><br></br>
+
+<label for="">Confirmar senha</label><br>
+<input type="password" 
+id="confirmpassword" 
+name="confirmpassword" 
+placeholder="Digite sua senha novamente aqui..." 
+required="true" 
+maxlength="15"><br></br>
+<label for="desejanovidades">Deseja receber novidades em seu e-mail?</label><br>
+<label for="yes">Sim</label>
+<input id="yes" type="radio" required="true" name="desejanovidades" value="yes">
+<label for="no">Não</label>
+<input id="no" type="radio" required="true" name="desejanovidades" value="no">
+<br></br>
+<button id="" type="submit">Cadastrar</button>
+</form>
+</cara>
+</section>
+<body>    
+</body>
+</html>
